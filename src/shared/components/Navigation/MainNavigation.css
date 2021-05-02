@@ -1,0 +1,33 @@
+.main-navigation_menu-btn {
+  background: transparent;
+  border: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.main-navigation_menu-btn svg {
+  display: block;
+  padding: 1em;
+  color: white;
+  transform: scale(3);
+}
+
+.main-navigation_title {
+  color: white;
+}
+
+.main-navigation_title a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .main-navigation_menu-btn {
+    display: none;
+  }
+
+  .main-navigation_title {
+    color: white;
+    margin-left: 1.62em;
+  }
+}
